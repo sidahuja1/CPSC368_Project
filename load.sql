@@ -1,11 +1,5 @@
-drop table salesdetails;
-drop table sales;
-drop table titleditors;
-drop table titleauthors;
-drop table titles;
-drop table publishers;
-drop table authors;
-drop table editors;
+drop table cities500;
+drop table ribcot;
 purge recyclebin;
 
 CREATE TABLE cities500 (
