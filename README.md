@@ -1,4 +1,5 @@
 # CPSC368_Project
+Github link: https://github.com/sidahuja1/CPSC368_Project
 
 All jupyter codes are written in python
 The required python libraries are listed in `requirements.txt`.
