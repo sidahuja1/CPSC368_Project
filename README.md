@@ -14,13 +14,13 @@ The required python libraries are listed in `requirements.txt`.
 3. How do regional differences in public health behaviors influence the types of health-related concerns people search for online?
 
 ## Files
-- `final_project.ipynb` `&rarr` The research paper
-- `eda.ipynb` `&rarr` Exploratory Data Analysis during midway checkpoint
-- `requirement.txt` `&rarr` required python libraries
-- `load.sql` `&rarr` SQL code to load tables in database
-- `models.ipynb` `&rarr` ML Models used to answer research questions
-- `ribcot_cleaning.ipynb` `&rarr` Code used to clean the `RegionalInterestByConditionOverTime.csv`
-- `sql_data_insert.ipynb` `&rarr` Code used to generate sql insert for `load.sql`
+- `final_project.ipynb` &rarr; The research paper
+- `eda.ipynb` &rarr; Exploratory Data Analysis during midway checkpoint
+- `requirement.txt` &rarr; required python libraries
+- `load.sql` &rarr; SQL code to load tables in database
+- `models.ipynb` &rarr; ML Models used to answer research questions
+- `ribcot_cleaning.ipynb` &rarr; Code used to clean the `RegionalInterestByConditionOverTime.csv`
+- `sql_data_insert.ipynb` &rarr; Code used to generate sql insert for `load.sql`
 
 ## SQL Queries
 
