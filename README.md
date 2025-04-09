@@ -30,111 +30,67 @@ start load.sql
 
 **Query 2**
 ---
+```
 CREATE TABLE result AS
-
 SELECT 
-
   a.State AS a_State,
-  
   a.CityName AS a_CityName,
-  
   a.population2010,
-  
   a.cityfips,
-  
   a.bingedrinking,
-  
   a.smokingrate,
-  
   a.nophysicalactivity,
-  
   a.obesityrate AS a_obesityrate,
-  
   a.sleepdeprivation,
-  
   b.geocode,
-  
   b.cancer,
-  
   b.cardiovascular,
-  
   b.depression,
-  
   b.diabetes,
-  
   b.diarrhea,
-  
   b.obesity AS b_obesity,
-  
   b.rehab,
-  
   b.stroke,
-  
   b.vaccine
-  
 FROM cities500 a
-
 JOIN ribcot b 
-
   ON a.State = b.State AND a.CityName = b.CityName;
+```
 
 
 **Query 3**
----
+-
+
+```
 SET HEADING ON
-
 SET LINESIZE 1000
-
 SET PAGESIZE 50000
-
 SET TRIMSPOOL ON
-
 SET FEEDBACK OFF
-
 SET ECHO OFF
-
 SET COLSEP ','
 
 SPOOL result.csv
 
 SELECT
-
   a_State || ',' ||
-  
   a_CityName || ',' ||
-  
   population2010 || ',' ||
-  
   cityfips || ',' ||
-  
   bingedrinking || ',' ||
-  
   smokingrate || ',' ||
-  
   nophysicalactivity || ',' ||
-  
   a_obesityrate || ',' ||
-  
   sleepdeprivation || ',' ||
-  
   geocode || ',' ||
-  
   cancer || ',' ||
-  
   cardiovascular || ',' ||
-  
   depression || ',' ||
-  
   diabetes || ',' ||
-  
   diarrhea || ',' ||
-  
   b_obesity || ',' ||
-  
   rehab || ',' ||
-  
   stroke || ',' ||
-  
   vaccine
-  
 FROM result;
+```
